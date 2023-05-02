@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ComputerDP</class>
+ <widget class="QDialog" name="ComputerDP">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="ComputerPB">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>10</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>371</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="title">
+    <string>Computer Section</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>40</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>30</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Name</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(100, 100, 100);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Enter Name</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>40</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="ComputerSavePB">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(25, 25, 25);
+background-color: rgb(0, 170, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Save</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="ComputerBackPB">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(25, 25, 25);
+background-color: rgb(0, 170, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
